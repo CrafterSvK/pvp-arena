@@ -1,0 +1,14 @@
+name: Arena
+version: ${project.version}
+main: xyz.janek.pvp.Pvp
+api-version: 1.16
+
+commands:
+  arena:
+    description: Main arena command
+    usage: /arena <join|leave|create|add|remove|reset>
+    permission: pvp.arena
+  game:
+    description: Arena game init
+    usage: /game <start|stop|pause|unpause>
+    permission: pvp.game
